@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44446.6595591088"/>
+					<Prp name="object bottom" type="I" value="388"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object top" type="I" value="345"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="280"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//input[@id=(//label[.='Your name']/@for)]&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="datetime" type="D" value="44446.6491319444"/>
+					<Prp name="object bottom" type="I" value="491"/>
+					<Prp name="image file name" type="S" value="tcvi5886215621690441.png"/>
+					<Prp name="object top" type="I" value="448"/>
+					<Prp name="click point x" type="I" value="1919"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="682"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1507"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.4929029282"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName&#xA;(Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//input[@id=(//label[.='Your name']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44446.6594875694"/>
+					<Prp name="object bottom" type="I" value="548"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="785"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;Remote&quot;).BrowserWindow(0)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The BrowserWindow(0) window was maximized."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.4928247106"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;Remote&quot;).BrowserWindow(0))"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44446.6594486227"/>
+					<Prp name="object bottom" type="I" value="548"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="800"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;Remote&quot;).Page(&quot;&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Navigating to the https://smartstore.alertsite.com/ page."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.4928120718"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="URL: https://smartstore.alertsite.com/&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;Remote&quot;).Page(&quot;&quot;)"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44446.6596441551"/>
+					<Prp name="object bottom" type="I" value="678"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object top" type="I" value="627"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="280"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="383"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//button[@name='send-email']&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="datetime" type="D" value="44446.6492824074"/>
+					<Prp name="object bottom" type="I" value="781"/>
+					<Prp name="image file name" type="S" value="tcvi588635750169048.png"/>
+					<Prp name="object top" type="I" value="730"/>
+					<Prp name="click point x" type="I" value="772"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="682"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="784"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageContactus.sectionContent.formYourName.buttonSendEmail"/>
+					<Prp name="click point y" type="I" value="765"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage11_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.492980706"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageContactus.sectionContent.formYourName.buttonSendEmail&#xA;(Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//button[@name='send-email']&quot;))"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44446.6595087153"/>
+					<Prp name="object bottom" type="I" value="42"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="447"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="542"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/&quot;).FindElement(&quot;//a[.='Contact us']&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="datetime" type="D" value="44446.6490972222"/>
+					<Prp name="object bottom" type="I" value="145"/>
+					<Prp name="image file name" type="S" value="tcvi588619187169042.png"/>
+					<Prp name="object top" type="I" value="103"/>
+					<Prp name="click point x" type="I" value="1042"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1009"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1098"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageShop.header.navUsd.navContactUs.linkContactUs"/>
+					<Prp name="click point y" type="I" value="123"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.4928439005"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at the center with the no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageShop.header.navUsd.navContactUs.linkContactUs&#xA;(Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/&quot;).FindElement(&quot;//a[.='Contact us']&quot;))"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44446.6595954745"/>
+					<Prp name="object bottom" type="I" value="447"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object top" type="I" value="404"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="280"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//input[@id=(//label[.='Your email']/@for)]&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="datetime" type="D" value="44446.649212963"/>
+					<Prp name="object bottom" type="I" value="550"/>
+					<Prp name="image file name" type="S" value="tcvi5886226871690452.png"/>
+					<Prp name="object top" type="I" value="507"/>
+					<Prp name="click point x" type="I" value="1919"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="682"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1507"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourEmail"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.4929394676"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourEmail&#xA;(Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//input[@id=(//label[.='Your email']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44446.6595515278"/>
+					<Prp name="object bottom" type="I" value="388"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object top" type="I" value="345"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="280"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//input[@id=(//label[.='Your name']/@for)]&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="datetime" type="D" value="44446.6491203704"/>
+					<Prp name="object bottom" type="I" value="491"/>
+					<Prp name="image file name" type="S" value="tcvi588621562169044.png"/>
+					<Prp name="object top" type="I" value="448"/>
+					<Prp name="click point x" type="I" value="1919"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="682"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1507"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The text 'Dan' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.4928864468"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName&#xA;(Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//input[@id=(//label[.='Your name']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44446.6595378125"/>
+					<Prp name="object bottom" type="I" value="388"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object top" type="I" value="345"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="280"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//input[@id=(//label[.='Your name']/@for)]&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="datetime" type="D" value="44446.6491087963"/>
+					<Prp name="object bottom" type="I" value="491"/>
+					<Prp name="image file name" type="S" value="tcvi588620703169043.png"/>
+					<Prp name="object top" type="I" value="448"/>
+					<Prp name="click point x" type="I" value="784"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="682"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1507"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName"/>
+					<Prp name="click point y" type="I" value="470"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.4928735185"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at the center with the no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName&#xA;(Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//input[@id=(//label[.='Your name']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44446.6596172569"/>
+					<Prp name="object bottom" type="I" value="611"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object top" type="I" value="463"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="280"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//textarea[@id=(//label[.='Enquiry']/@for)]&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="datetime" type="D" value="44446.649224537"/>
+					<Prp name="object bottom" type="I" value="714"/>
+					<Prp name="image file name" type="S" value="tcvi588629687169046.png"/>
+					<Prp name="object top" type="I" value="566"/>
+					<Prp name="click point x" type="I" value="1919"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="682"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1507"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageContactus.sectionContent.formYourName.textareaEnquiry"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.4929648032"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Where's my order?' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageContactus.sectionContent.formYourName.textareaEnquiry&#xA;(Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//textarea[@id=(//label[.='Enquiry']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{914BF68D-72C4-44EC-9F4F-C8EC4BCB6709}"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44446.6595872801"/>
+					<Prp name="object bottom" type="I" value="447"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object top" type="I" value="404"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="280"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="970"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//input[@id=(//label[.='Your email']/@for)]&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="datetime" type="D" value="44446.6491435185"/>
+					<Prp name="object bottom" type="I" value="550"/>
+					<Prp name="image file name" type="S" value="tcvi5886226871690451.png"/>
+					<Prp name="object top" type="I" value="507"/>
+					<Prp name="click point x" type="I" value="1919"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="682"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1507"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourEmail"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The text 'D@DB.COM' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.4929221296"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourEmail&#xA;(Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/contactus&quot;).FindElement(&quot;//input[@id=(//label[.='Your email']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="Remote Safari was launched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44446.4927575579"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt; 			&lt;body&gt; 				The browser was run with the following capabilities: 				&lt;pre&gt;{&#xA;  &quot;browserName&quot; : &quot;Safari&quot;,&#xA;  &quot;platform&quot; : &quot;MacOS 11.0&quot;,&#xA;  &quot;screenResolution&quot; : &quot;1024x768&quot;,&#xA;  &quot;version&quot; : &quot;14&quot;&#xA;}&lt;/pre&gt; 				&lt;p&gt;The hub URL: 					&lt;a href = 'aqa-url://http://hub.crossbrowsertesting.com:80/wd/hub'&gt;http://hub.crossbrowsertesting.com:80/wd/hub&lt;/a&gt; 				&lt;/p&gt; 				&lt;p&gt; 					See the details of your test run at &lt;a href = 'aqa-url://https://app.crossbrowsertesting.com/selenium/05548AC3-AA99-4F93-AEC1-B999AC0306E8'&gt;CrossBrowserTesting App&lt;/a&gt;. 				&lt;/p&gt; 			&lt;/body&gt; 		&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="start time" type="D" value="44446.4867340046"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="contactus [KeywordTests - contactus]"/>
+				<Prp name="details" type="S" value="{2956AA05-D65F-45B4-B466-9DD0A72552DD}"/>
+				<Prp name="end time" type="D" value="44446.4867934375"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44446.4866168403"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="LogOn [KeywordTests - LogOn]"/>
+				<Prp name="details" type="S" value="{54DE6D64-C3A6-47EA-BB68-203B264CD0D4}"/>
+				<Prp name="end time" type="D" value="44446.4867339352"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>
