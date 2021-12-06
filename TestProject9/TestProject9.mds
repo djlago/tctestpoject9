@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="14.0">
+<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<child name="NameMapping" key="{6BEC956F-E241-4C76-87CA-261BD50017BB}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Script" key="{8D24BBA0-AD1F-4597-B2DC-0AB73E7ED68F}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
@@ -8,30 +8,15 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{BE3CBF56-AC63-4770-A953-B183A972D7C0}" version="14">
 		<children>
-			<testItem name="ContactUs" key="{E68F4FE1-3569-4AA2-BA39-89E2053E9368}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="LogOn" key="{7861694B-EA9A-425D-A2C9-F28AB6F09A35}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D2AE2B03-5A36-413F-AB19-B463C9236182}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children>
-					<testItem name="LogOn" key="{B725C1CE-8820-48AC-A118-36C83D946CBE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D2AE2B03-5A36-413F-AB19-B463C9236182}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="contactus" key="{B3EBBB8F-4E09-471A-9984-FC0EDB24DEF7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{914BF68D-72C4-44EC-9F4F-C8EC4BCB6709}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-				</children>
+				<environments activeCloud="CBT" />
+				<children />
 			</testItem>
-			<testItem name="Group1" key="{E90E0125-6C03-4216-AD40-D237A5ABB9BB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="contactus" key="{0BAF7697-3FCF-4353-B4E3-4CF0AAE9ECAE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{914BF68D-72C4-44EC-9F4F-C8EC4BCB6709}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children>
-					<testItem name="LogOn_2" key="{044AAC24-2DFD-4D7D-9C0E-CE412DC2654E}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D2AE2B03-5A36-413F-AB19-B463C9236182}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-				</children>
+				<environments activeCloud="CBT" />
+				<children />
 			</testItem>
 		</children>
 	</testItems>
@@ -45,7 +30,7 @@
 		</data>
 	</variables>
 	<settings key="{CF318042-29D9-4A73-A20F-2AC517465229}">
-		<settingsVersion value="14.92" />
+		<settingsVersion value="15.0" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -74,6 +59,8 @@
 		<setting name="AzureDevOps_URL" type="5" value="" />
 		<setting name="BitBar_APIKey" type="5" value="3A02A04190AB829D00C31B1EE3077C6F34C645D1888C877492EC4B54B3F09563D4A6D7104D99761E209B1CCB7BAB35CCC31A2EBBA605C5EAA5E3C6521BFD73951269" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
+		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
