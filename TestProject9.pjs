@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{55DC05FC-8565-4CBA-AB78-D276F3B53AD8}">
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{55DC05FC-8565-4CBA-AB78-D276F3B53AD8}">
 	<children>
 		<child name="TestProject9" key="{418C291C-3478-4B24-AD75-41B8728E56B7}" path="TestProject9\TestProject9.mds" />
 	</children>
@@ -10,7 +10,7 @@
 	</testItems>
 	<variables key="{A9733D69-3568-40A9-B8CA-1C020410940E}" />
 	<analysis key="{34957819-7D67-4907-9812-2F5FBF291ACA}" />
-	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
 </Root>
