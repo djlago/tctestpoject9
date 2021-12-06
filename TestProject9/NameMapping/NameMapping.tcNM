@@ -113,8 +113,8 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="sectionContent" Key="{99BA5A1A-4050-402B-9A4C-5363190CEC39}">
-										<Image FileName="1962930093" Left="382" Top="290" Right="1522" Bottom="2260" />
+									<Child Name="sectionContent" Key="{138030A4-E441-4CAE-BA50-F897B2B7490A}">
+										<Image FileName="905521162" Left="382" Top="323" Right="1522" Bottom="2301" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content" />
@@ -133,49 +133,49 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="articleGiftCards" Key="{83B0214C-1AC3-4A89-BA04-88673DF4F861}">
-										<Image FileName="1962930093" Left="1147" Top="648" Right="1319" Bottom="850" />
+									<Child Name="articleMobilePhone" Key="{558F4600-E5FE-43B5-B426-6A52E37ECDE2}">
+										<Image FileName="905521162" Left="397" Top="463" Right="569" Bottom="666" />
 										<Selectors>
 											<Selector>
-												<Value Value="//article[contains(., &apos;Gift Cards&apos;)]" />
+												<Value Value="//article[contains(., &apos;Mobile phone&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;content-center&apos;]//article[11]" />
+												<Value Value="//div[@id=&apos;content-center&apos;]//article" />
 											</Selector>
 											<Selector>
-												<Value Value="//article[11]" />
+												<Value Value="//article" />
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="linkGiftCards" Key="{BF33B7D6-9236-4C87-ADDA-87812DEBEF01}">
-										<Image FileName="1962930093" Left="1163" Top="664" Right="1303" Bottom="804" />
+									<Child Name="linkApple" Key="{CBCA241E-793F-4A3E-A84B-96FE4D0068E0}">
+										<Image FileName="905521162" Left="413" Top="479" Right="553" Bottom="619" />
 										<Selectors>
 											<Selector>
-												<Value Value="//a[@title=&apos;Show products in category Gift Cards&apos;]" />
+												<Value Value="//a[@title=&apos;Show products in category Mobile phone&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//article[11]//a[contains(@class, &apos;art-picture&apos;)]" />
+												<Value Value="//article//a[contains(@class, &apos;art-picture&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;content-center&apos;]//article[11]/div/a" />
+												<Value Value="//div[@id=&apos;content-center&apos;]//article/div/a" />
 											</Selector>
 											<Selector>
-												<Value Value="//article[11]//a" />
+												<Value Value="//article//a" />
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="imagePictureForCategoryGiftCards" Key="{A0818613-91C5-4845-8ED3-15E79E796EE9}">
-										<Image FileName="1962930093" Left="1163" Top="690" Right="1303" Bottom="778" />
+									<Child Name="imagePictureForCategoryMobile" Key="{83662719-C112-42DD-8D8C-860A65CC8B95}">
+										<Image FileName="905521162" Left="428" Top="479" Right="536" Bottom="619" />
 										<TypeInfo Item0="{FE792F9E-A5F9-4D16-B158-2C3F3D815154}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//img[contains(@src, &apos;gift-cards.png&apos;)]" />
+												<Value Value="//img[contains(@src, &apos;mobile-phone.png&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[contains(@href, &apos;gift-cards&apos;)]/img" />
+												<Value Value="//a[contains(@href, &apos;apple&apos;)]/img" />
 											</Selector>
 											<Selector>
-												<Value Value="//article[11]//a/img" />
+												<Value Value="//article//a/img" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -460,25 +460,99 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="pageGiftCards" Key="{C364417D-BF47-4288-B1E2-D8E2C3074579}">
+							<Child Name="pageAirpods" Key="{A5EB4243-E753-4FFF-806D-E98EF6D00CF1}">
+								<Image FileName="-715333373" Left="8" Top="111" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{8E99619D-8F3D-45EC-B5CB-7D1174AFF3F9}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartstore.alertsite.com/airpods" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{6A33BE74-92EE-485B-A1D6-7AE1063A5885}">
+										<Image FileName="-715333373" Left="390" Top="323" Right="1530" Bottom="1900" />
+										<TypeInfo Item0="{AD5DE197-1C56-43D6-A731-B231BDBA253B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Mobile phone&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleAirypods" Key="{06EDF756-5662-4BE7-BE16-84B8233AFB7B}">
+										<Image FileName="-715333373" Left="405" Top="366" Right="1515" Bottom="1510" />
+										<TypeInfo Item0="{AD5DE197-1C56-43D6-A731-B231BDBA253B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;AiryPods&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(@class, &apos;pd&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideAirypods" Key="{69A6BA92-C777-4B8E-A892-CD72C5047F28}">
+										<Image FileName="-715333373" Left="1054" Top="366" Right="1529" Bottom="947" />
+										<TypeInfo Item0="{AD5DE197-1C56-43D6-A731-B231BDBA253B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//aside[contains(., &apos;AiryPods&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside[contains(@class, &apos;col-12&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//aside" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/aside" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel101400ExclTax" Key="{F9C435BD-58C1-4DFB-A893-FF3B837E2251}">
+										<Image FileName="-715333373" Left="1084" Top="555" Right="1308" Bottom="592" />
+										<TypeInfo Item0="{AD5DE197-1C56-43D6-A731-B231BDBA253B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;pd-price&apos;)]/div[contains(@class, &apos;pd-price&apos;)]/div[contains(@class, &apos;pd-price&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageApple" Key="{7729AB50-C79F-49E2-9E4A-7F8A59B8CC28}">
 								<TypeInfo Item0="{D9B6B831-F081-44FB-8997-3BD4EB7C9B60}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://smartstore.alertsite.com/gift-cards" />
+										<Value Value="https://smartstore.alertsite.com/apple" />
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="sectionContent" Key="{1887EC78-48D6-4727-88B8-9CE1B40E5253}">
-										<Image FileName="937885507" Left="382" Top="282" Right="1522" Bottom="1436" />
+									<Child Name="sectionContent" Key="{F7EA12E3-42D7-41EB-82DA-B5BAA7870E31}">
+										<Image FileName="-1391702968" Left="382" Top="315" Right="1522" Bottom="1471" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content" />
 											</Selector>
 											<Selector>
-												<Value Value="//section[contains(., &apos;Gift Cards&apos;)]" />
+												<Value Value="//section[contains(., &apos;Mobile phone&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
@@ -491,11 +565,11 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="link25VirtualGiftCard" Key="{4242F1B9-D63D-4777-BA16-8F4080797AD1}">
-										<Image FileName="937885507" Left="902" Top="500" Right="1076" Bottom="674" />
+									<Child Name="linkShowDetailsForAirypods" Key="{716D6D9B-DE38-4E71-9735-00A19440ED4D}">
+										<Image FileName="-1391702968" Left="902" Top="534" Right="1076" Bottom="708" />
 										<Selectors>
 											<Selector>
-												<Value Value="//a[@title=&apos;Show details for $25 Virtual Gift Card&apos;]" />
+												<Value Value="//a[@title=&apos;Show details for AiryPods&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//article[2]//a[contains(@class, &apos;art-picture&apos;)]" />
@@ -508,15 +582,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="image25VirtualGiftCardPng" Key="{082C0B3F-4CBA-41B9-B4D2-5B3DC085B5F2}">
-										<Image FileName="937885507" Left="902" Top="532" Right="1076" Bottom="641" />
+									<Child Name="imageShowDetailsForAirypods" Key="{1A4C186B-5474-4CB5-A14B-CFD64AEA34C7}">
+										<Image FileName="-1391702968" Left="923" Top="534" Right="1055" Bottom="708" />
 										<TypeInfo Item0="{FE792F9E-A5F9-4D16-B158-2C3F3D815154}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//img[@title=&apos;Show details for $25 Virtual Gift Card&apos;]" />
+												<Value Value="//img[@title=&apos;Show details for AiryPods&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[contains(@href, &apos;25-virtual-gift-card&apos;)]/img" />
+												<Value Value="//a[contains(@href, &apos;airpods&apos;)]/img" />
 											</Selector>
 											<Selector>
 												<Value Value="//article[2]//a/img" />
@@ -543,10 +617,10 @@
 						</Child>
 					</Child>
 				</Child>
-				<Child Name="sectionContent" Owner="{99BA5A1A-4050-402B-9A4C-5363190CEC39}">
-					<Child Name="articleGiftCards" Owner="{83B0214C-1AC3-4A89-BA04-88673DF4F861}">
-						<Child Name="linkGiftCards" Owner="{BF33B7D6-9236-4C87-ADDA-87812DEBEF01}">
-							<Child Name="imagePictureForCategoryGiftCards" Owner="{A0818613-91C5-4845-8ED3-15E79E796EE9}" />
+				<Child Name="sectionContent" Owner="{138030A4-E441-4CAE-BA50-F897B2B7490A}">
+					<Child Name="articleMobilePhone" Owner="{558F4600-E5FE-43B5-B426-6A52E37ECDE2}">
+						<Child Name="linkApple" Owner="{CBCA241E-793F-4A3E-A84B-96FE4D0068E0}">
+							<Child Name="imagePictureForCategoryMobile" Owner="{83662719-C112-42DD-8D8C-860A65CC8B95}" />
 						</Child>
 					</Child>
 				</Child>
@@ -573,10 +647,19 @@
 					</Child>
 				</Child>
 			</Child>
-			<Child Name="pageGiftCards" Owner="{C364417D-BF47-4288-B1E2-D8E2C3074579}">
-				<Child Name="sectionContent" Owner="{1887EC78-48D6-4727-88B8-9CE1B40E5253}">
-					<Child Name="link25VirtualGiftCard" Owner="{4242F1B9-D63D-4777-BA16-8F4080797AD1}">
-						<Child Name="image25VirtualGiftCardPng" Owner="{082C0B3F-4CBA-41B9-B4D2-5B3DC085B5F2}" />
+			<Child Name="pageAirpods" Owner="{A5EB4243-E753-4FFF-806D-E98EF6D00CF1}">
+				<Child Name="sectionContent" Owner="{6A33BE74-92EE-485B-A1D6-7AE1063A5885}">
+					<Child Name="articleAirypods" Owner="{06EDF756-5662-4BE7-BE16-84B8233AFB7B}">
+						<Child Name="asideAirypods" Owner="{69A6BA92-C777-4B8E-A892-CD72C5047F28}">
+							<Child Name="panel101400ExclTax" Owner="{F9C435BD-58C1-4DFB-A893-FF3B837E2251}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageApple" Owner="{7729AB50-C79F-49E2-9E4A-7F8A59B8CC28}">
+				<Child Name="sectionContent" Owner="{F7EA12E3-42D7-41EB-82DA-B5BAA7870E31}">
+					<Child Name="linkShowDetailsForAirypods" Owner="{716D6D9B-DE38-4E71-9735-00A19440ED4D}">
+						<Child Name="imageShowDetailsForAirypods" Owner="{1A4C186B-5474-4CB5-A14B-CFD64AEA34C7}" />
 					</Child>
 				</Child>
 			</Child>
