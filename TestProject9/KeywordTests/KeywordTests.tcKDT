@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<child name="LogOn" key="{D2AE2B03-5A36-413F-AB19-B463C9236182}" path="LogOn.tcKDTest" />
 		<child name="contactus" key="{914BF68D-72C4-44EC-9F4F-C8EC4BCB6709}" path="contactus.tcKDTest" />
-		<child name="giftcard" key="{162F85EA-B6F7-4C2B-9190-22A8AD8FDC30}" path="giftcard.tcKDTest" />
+		<child name="phone" key="{6FBA71BD-7B05-47C4-B53C-CF2939106060}" path="phone.tcKDTest" />
 	</children>
 </Root>
